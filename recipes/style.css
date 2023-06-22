@@ -1,0 +1,24 @@
+body {
+    margin-left: 50px;
+    background-color: #1e1e1e;
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 1.5;
+}
+#home-btn {
+    position: fixed;
+    top: 50px;
+    right: 100px;
+    border: 1px solid #fff;
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 8px;
+    text-decoration: none;
+}
+.lead-img {
+    width: 60%;
+}
+
+p, ol, ul {
+    width: 60%;
+}
