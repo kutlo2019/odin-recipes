@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        h1 {
+            font-size: 4rem;
+        }
+        
+        h2 {
+            font-size: 2rem;
+        }
+
+        ul {
+            list-style-type: none;
+        }
+
+        .header {
+            position: relative;
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(img/mediterranean-cuisine-2378758_1280.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 400px;
+            color: #fff;
+            text-align: center;
+        }
+        .nav {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 550px;
+            height: 80px;
+            margin: auto auto;
+        }
+
+        .content {
+            margin: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        ul {
+            display: flex;
+        }
+
+        a img {
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+</head> 
+<body>
+    <div class="header">
+        <div class="nav">
+            <h1>The Odin Recipes</h1>
+        </div>
+    </div>
+    <div class="content">
+        <h2>Learn from our many many recipes</h2>
+        <ul>
+            <li>
+                <a href="recipes/lasagna.html">
+                    <img src="img/lasagna-1900529_1280.jpg" alt="Lasagna Dish">
+                    <p>Lasagna Recipe</p>
+                </a>
+            </li>
+            <li>
+                <a href="recipes/cake.html">
+                    <img src="img/cake-1971552_1280.jpg" alt="Lasagna Dish">
+                    <p>Cake Recipe</p>
+                </a>
+            </li>
+            <li>
+                <a href="recipes/shrimp.html">
+                    <img src="img/shrimp-8000534_1280.jpg" alt="Lasagna Dish">
+                    <p>Shrim Risotto Recipe</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
